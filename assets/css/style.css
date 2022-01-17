@@ -16,7 +16,13 @@ body{
 
 h1,h2{
     font-family: jaldi, sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 0.5rem;
     color:#1C2833;
+}
+
+#logo{
+    float:left;
+    font-size: 200%;
+    margin-left: 30px;
 }
