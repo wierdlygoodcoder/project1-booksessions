@@ -1,7 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi&family=Sintony&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body{
     font-family: sintony, sans-serif;
     font-weight:300;
-    colour:#2C3E50;
+    color:#2E4053;
+}
+
+/* heading and logo */
+
+h1,h2{
+    font-family: jaldi, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color:#1C2833;
 }
