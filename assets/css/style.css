@@ -52,7 +52,7 @@ h1,h2{
 
 #hero-outter{
     height: auto;
-    width: 100%;
+    width: 50%;
     overflow: hidden;
 }
 
@@ -60,5 +60,31 @@ h1,h2{
     height: 700px;
     width: 100%;
     background: url('../images/people-building.png') no-repeat center center;
+    float:left;
     background-size: 100%;
 }
+
+/* flexbox 1*/
+
+.flexbox-container {
+    display:flex;
+   
+    
+}
+.flexbox-item{
+    width:200px
+    margin: 10px;
+    
+}
+
+.flexbox-item-2{
+    flex-grow: 2;
+    flex-basis: 0;
+    }
+
+.flexbox-item-3{
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+/*flexbox 2*/
