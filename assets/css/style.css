@@ -17,7 +17,7 @@ body{
 h1,h2{
     font-family: jaldi, sans-serif;
     text-transform: capitalize;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
     color:#1C2833;
 }
 
@@ -31,7 +31,8 @@ h1,h2{
 
 #menu{
     font-size:100%;
-    letter-spacing:0.3rem;
+    letter-spacing: 0.1em;
+    position: sticky;
 }
 
 #menu, #logo{
@@ -43,12 +44,21 @@ h1,h2{
     list-style-type:none;
     margin-right: 2rem;
 }
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
 #menu a:hover{
     border-bottom: 0.2rem solid #666699;
+}
+
+/* hero image*/
+
+#hero-outter{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url('../images/people-building.png') no-repeat center center;
+    background-size: 100%;
 }
