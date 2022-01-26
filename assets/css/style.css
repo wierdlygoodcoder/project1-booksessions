@@ -88,7 +88,6 @@ font-size: 20px;
 
 #painting{
     height:500px;
-    background-color: aqua; 
 }
 #left-side{
     padding-top: 30px;
@@ -97,7 +96,7 @@ font-size: 20px;
 }
 
 #right-side{
-    padding-top: 30px;
+    padding-top: 50px;
     width: 30%;
     float: right;
 }
@@ -127,4 +126,19 @@ font-size: 20px;
     margin: 20px 0;
     font-size: 280%;
 }
+#circle{
+    width: 39%;
+    height: 300px;
+    padding: 25px;
+    border-style: dashed;
+    border-color: black;
+    border-width: 0.5rem;
+    border-radius: 25%;
+    margin: 0 auto;
+}
 
+#circle-background{
+    background: url('../images/maxresdefault.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 25%;
+}
