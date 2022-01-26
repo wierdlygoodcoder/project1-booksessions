@@ -74,6 +74,7 @@ font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
     padding-left: 1000px;
+    
 }
 #building-text{
     font-size: 130%;
@@ -84,4 +85,46 @@ font-size: 20px;
 }
 
 /* painting*/
+
+#painting{
+    height:500px;
+    background-color: aqua; 
+}
+#left-side{
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+}
+
+#right-side{
+    padding-top: 30px;
+    width: 30%;
+    float: right;
+}
+
+#center-about{
+    width: 39%;
+    margin: 0 auto;
+}
+
+.left-side-about {
+    width:60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+    
+.right-side-about {
+    width:60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+ #heading-painting{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
 
