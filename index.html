@@ -12,15 +12,15 @@
 </head>
 <body> 
     <header id="heading">
-                <h1 id="logo"> Booking system for your hobby </h1>
+            <h1 id="logo"> Booking system for your hobby </h1>
             </div>    
                     <nav>
                         <ul id="menu">
                             <li>
-                            <a>Book in</a>
+                            <a href='#form-section'>Book in</a>
                             </li>
                             <li>
-                            <a>Paint</a>
+                            <a href='#heading-painting'>Paint</a>
                             </li>
                             <li>
                             <a>Play</a>
@@ -32,17 +32,19 @@
                     </nav>
                  </div>
     </header> 
-        <section id=hero-outter>
-        <div id=hero-image>
-            <img src="assets/images/people-building.png" alt="three people painting" aria-describedby="three people painting models">
-        </div>
-        </section>
+
+<section id=hero-outter>
+    <div id=hero-image>
+        <img src="assets/images/people-building.png" height="475px" width="844px" alt="three people painting" aria-describedby="three people painting models">
     </div>
+</section>
+
 <section id="building">
-        <h2 id="build"> building</h2><br>
+        <h2 id="build"> building</h2>
             <div id="building-text">
                  <p>We here are always looking for ways to help you out with building your hobby from basic kits to doing your on stuff we will be there to help in any way to help you with anything. 
-                 Want to talk to us about this click <a href="#menu">here</a> to go straight to the form and we will put you in touch with the best person to talk to.</p>
+                 Want to talk to us about this click <a href="#menu">here</a> to go straight to the form and we will put you in touch with the best person to talk to.
+                If you would like to book in please do that so with the form bellow. </p>
             </div>
         </div>
 </section>
@@ -50,29 +52,41 @@
 <section id="painting">
     <h2 id="heading-painting">painting</h2>
         <div id="right-side">
-            <div class="right-side-about"> we will teach you how to paint anything from a model of your favouate hero to a boat.</div>    
+            <div class="right-side-about"> We will teach you how to paint anything from a model of your favouate hero to a boat.
+                we also have bits for you to try for free from a model from your favourte wargame to a small canvus. 
+            </div>    
         </div>
         <div id="left-side">
-            <div class="left-side-about">test</div>
+            <div class="left-side-about">Our staff know how to paint anything and are professinals in there fields.
+                they have over 100 years experiance between them. If you would like to try this out please sign up for a session at the bottom of the page.
+            </div>
         </div>
         <div id="center-about">
-            <div id="circle">
+            <div id="circle-square">
                 <div id="circle-background">
                 </div>
             </div>
         </div>
 </section>
 
-<section>
-    <div>
-        <form>
-
-        </form>
-    </div>
-    
+<section class="form-section">
+    <form class="signup-form" method="POST" action="#menu">
+        <h2>sign up for your session here its free book</h2>
+        <label for="fname"> What name would you like to book under? </label>
+        <input id="fname" class="text-input" type="text" name="first_name" required />
+        <label for="lname">What are you looking to do?</label>
+        <input id="lname" class="text-input" type="text"  name="last_name" required />
+        <label for="email">Email Address</label>
+        <input id="email" class="text-input" type="email" name="email_address" required/>
+        <label for="lname">What are you looking to play</label>
+        <input id="lname" class="text-input" type="text"  name="last_name" required />
+        <label for="birthday">When would you like to book in for?</label>
+         <input type="date" id="birthday" name="birthday">
+        <input class="join-button"  type="submit" value="Let's Run!" href="#menu"/>
+    </form>
 </section>
+
 </body>
-</div>
 <footer>
 
 </footer>
