@@ -6,6 +6,9 @@
     border: none;
     
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 body{
     font-family: sintony, sans-serif;
@@ -16,6 +19,10 @@ body{
 /* heading and logo */
 #heading{
     height: 5rem;
+    position: fixed;
+    background: aquamarine;
+    width: 100%;
+    z-index: 1;
 }
 h1{
     font-family: jaldi, sans-serif;
@@ -165,16 +172,16 @@ h2{
 }
 
 .signup-form {
-    color: #fff;
-    background-color: rgba(5,5,5,0.7);
-    max-width: 400px;
+    color: #7e2929;
+    background-color: aquamarine;
+    max-width: 500px;
     position: absolute;
     left: 39%;
     padding: 30px;
 }
 
 .signup-form > h2 {
-    color: #fafafa;
+    color: red;
     margin-bottom: 20px;
 }
 
@@ -189,7 +196,7 @@ h2{
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #black;
 }
 
 .join-button {
@@ -198,11 +205,11 @@ h2{
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: aquamarine;
+    background-color: blue;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
+    background-color: white;
     color: #f16c6b;
 }
