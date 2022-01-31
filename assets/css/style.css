@@ -67,6 +67,7 @@ h2{
 #hero-image {
     height: 300px;
     width: 100%;
+    
     float:left;
     background-size:75%;
 }
@@ -81,9 +82,8 @@ h2{
     font-size: 280%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    right: 500px;
-    position: absolute;
-    padding: 56px;
+    margin:auto;
+    padding: 56px 0px 20px 0px;
 }
 #building-text{
     font-size: 130%;
@@ -215,4 +215,24 @@ h2{
 .join-button:hover {
     background-color: white;
     color: #f16c6b;
+}
+/* footer*/
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 200%;
+    margin: 1%;
+    padding:5%;
+    color: #3a3a3a;
 }
