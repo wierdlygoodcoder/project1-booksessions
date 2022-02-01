@@ -23,6 +23,7 @@ body{
     background: aquamarine;
     width: 100%;
     z-index: 1;
+    top: 0;
 }
 h1{
     font-family: jaldi, sans-serif;
@@ -62,14 +63,11 @@ h2{
     border-bottom: 0.2rem solid #666699;
 }
 
+
 /* hero image*/
 
 #hero-image {
-    height: 300px;
-    width: 100%;
-    /*background-image: url(../images/people-building.png);*/
-    float:left;
-    background-size:75%;
+    margin-top: 50px;
 }
 
 /*building*/
@@ -83,17 +81,12 @@ h2{
     text-transform: uppercase;
     letter-spacing: 4px;
     margin:auto;
-    padding: 56px 0px 20px 0px;
+    padding: 65px 0px 20px 0px;
 }
 #building-text{
-    font-size: 130%;
+    font-size: 120%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    width: 700px;
-    right: 100px;
-    position: absolute;
-    padding-top: 5rem;
-    padding: 13px;
 }
 
 /* painting*/
@@ -237,20 +230,37 @@ footer{
     color: #3a3a3a;
 }
 
+/*float*/
+
+.float-container {
+    display: flex;
+}
+
+.float-image {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 91%;
+  }
+  
+  .float-text{
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+
 /*media quaries*/
 
 /* for lager and medium screens from 1200px wide and down*/
 @media screen and (max-width:1200px) {
-    #building{
+
+        #building{
         width: 65%;
         height: 500px;
         margin: 0 auto;
-        position:static;
     }
 
     #painting{
         width: 65%;
-        height:830px;
+        height:500px;
         margin: 0 auto;
     }
     #heading-painting{
@@ -270,4 +280,15 @@ footer{
         float: left;
         padding:0;
     }
-}
+    #hero-image{
+        width: 50%;
+        height:50%;
+    }
+
+    .float-text, .float-image{
+        flex: 100%;
+    }
+
+    .float-text{
+        text-size:100%;
+    }
